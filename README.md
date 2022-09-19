@@ -11,7 +11,7 @@ Short Description:
 The program allows to the user to work on a fake virtual file system. The fake virtual file system consists only of one main folder named root. 
 
 The user can work with the following commands: 
-ls - lists all the content if the folder it is inside                                                                                    
+ls - lists all the content if the folder it is inside                                                                                                                                                                 
 mkdir example - creates folder named example                                                                              
 cd example - accesses folder named example                                                                          
 touch example - creates an empty file named example                                                            
