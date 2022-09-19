@@ -12,7 +12,7 @@ class Folder:
         self.file = []      #file list
 
 
-root = Folder(parent = None, name = 'home')
+root = Folder(parent = None, name = 'root')
 cur = root
 path = 'root'
 
@@ -107,14 +107,13 @@ def cd(name):
                 cur = i 
                 path = path + '/' + name
                 return path
-        cur = root
-        path = 'root'
         error = 1
         return print(colored('Error: No such directory', 'red'))
 
 def cd_path(name):
     global error
 
+    error = 0
     name = name.split('/')
     for i in name:
         if error:
